@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <div class="main-div">
+        <h2 class="main-heading">Feedback Form</h2>
+        <form>
+
+            <!-- Form starts here -->
+
+            <!-- Name -->
+
+            <h3 class="heading">Name<span class="asterisk">*</span></h3>
+            <div class="names">
+                <div>
+                    <input type="text" required>
+                    <p class="subscript-text">First</p>
+                </div>
+                <div>
+                    <input type="text" required>
+                    <p class="subscript-text">Last</p>
+                </div>
+            </div>
+
+            <!-- Email -->
+
+            <h3 class="heading">Email<span class="asterisk">*</span></h3>
+            <input type="email" required>
+
+            <!-- Star Rating -->
+
+            <h3 class="heading">Your Experience<span class="asterisk">*</span></h3>
+            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+            <p class="subscript-text">Overall, how would you rate your experience with us?</p>
+
+            <!-- Feedback-mobile-view -->
+
+            <div class="feedback-1">
+                <h3 class="heading">How satisfied are you with<span class="asterisk">*</span></h3>
+                <div class="grey" id="review">
+                    <h4 class="sub-heading">1. Purchase</h4>
+                    <input class="radio" type="radio" id="v-unsatisfied">
+                    <label for="v-unsatisfied">Very Unsatisfied</label>
+                    <br />
+                    <input class="radio" type="radio" id="unsatisfied">
+                    <label for="unsatisfied">Unsatisfied</label>
+                    <br />
+                    <input class="radio" type="radio" id="neutral">
+                    <label for="neutral">Neutral</label>
+                    <br />
+                    <input class="radio" type="radio" id="satisfied">
+                    <label for="satisfied">Satisfied</label>
+                    <br />
+                    <input class="radio" type="radio" id="v-satisfied">
+                    <label for="v-satisfied">Very Satisfied</label>
+                </div>
+                <div id="review">
+                    <h4 class="sub-heading">2. Service</h4>
+                    <input class="radio" type="radio" id="v-unsatisfied">
+                    <label for="v-unsatisfied">Very Unsatisfied</label>
+                    <br />
+                    <input class="radio" type="radio" id="unsatisfied">
+                    <label for="unsatisfied">Unsatisfied</label>
+                    <br />
+                    <input class="radio" type="radio" id="neutral">
+                    <label for="neutral">Neutral</label>
+                    <br />
+                    <input class="radio" type="radio" id="satisfied">
+                    <label for="satisfied">Satisfied</label>
+                    <br />
+                    <input class="radio" type="radio" id="v-satisfied">
+                    <label for="v-satisfied">Very Satisfied</label>
+                </div>
+                <div class="grey" id="review">
+                    <h4 class="sub-heading">3. Company Overall</h4>
+                    <input type="radio" id="v-unsatisfied">
+                    <label for="v-unsatisfied">Very Unsatisfied</label>
+                    <br />
+                    <input type="radio" id="unsatisfied">
+                    <label for="unsatisfied">Unsatisfied</label>
+                    <br />
+                    <input type="radio" id="neutral">
+                    <label for="neutral">Neutral</label>
+                    <br />
+                    <input type="radio" id="satisfied">
+                    <label for="satisfied">Satisfied</label>
+                    <br />
+                    <input type="radio" id="v-satisfied">
+                    <label for="v-satisfied">Very Satisfied</label>
+                </div>
+                <h3 class="heading">How likely are you to<span class="asterisk">*</span></h3>
+                <div class="grey" id="review">
+                    <h4 class="sub-heading">1. Buy from us again</h4>
+                    <input class="radio" type="radio" id="v-unlikely">
+                    <label for="v-unlikely">Very Unlikely</label>
+                    <br />
+                    <input class="radio" type="radio" id="unlikely">
+                    <label for="unlikely">Unlikely</label>
+                    <br />
+                    <input class="radio" type="radio" id="neutral">
+                    <label for="neutral">Neutral</label>
+                    <br />
+                    <input class="radio" type="radio" id="likely">
+                    <label for="likely">Likely</label>
+                    <br />
+                    <input class="radio" type="radio" id="v-likely">
+                    <label for="v-likely">Very Likely</label>
+                </div>
+                <div id="review">
+                    <h4 class="sub-heading">2. Recommend our product to others</h4>
+                    <input class="radio" type="radio" id="v-unlikely">
+                    <label for="v-unlikely">Very Unlikely</label>
+                    <br />
+                    <input class="radio" type="radio" id="unlikely">
+                    <label for="unlikely">Unlikely</label>
+                    <br />
+                    <input class="radio" type="radio" id="neutral">
+                    <label for="neutral">Neutral</label>
+                    <br />
+                    <input class="radio" type="radio" id="likely">
+                    <label for="likely">Likely</label>
+                    <br />
+                    <input class="radio" type="radio" id="v-likely">
+                    <label for="v-likely">Very Likely</label>
+                </div>
+                <div class="grey" id="review">
+                    <h4 class="sub-heading">3. Recommend our company to others</h4>
+                    <input class="radio" type="radio" id="v-unlikely">
+                    <label for="v-unlikely">Very Unlikely</label>
+                    <br />
+                    <input class="radio" type="radio" id="unlikely">
+                    <label for="unlikely">Unlikely</label>
+                    <br />
+                    <input class="radio" type="radio" id="neutral">
+                    <label for="neutral">Neutral</label>
+                    <br />
+                    <input class="radio" type="radio" id="likely">
+                    <label for="likely">Likely</label>
+                    <br />
+                    <input class="radio" type="radio" id="v-likely">
+                    <label for="v-likely">Very Likely</label>
+                </div>
+            </div>
+
+            <!-- Feedback-Desktop-View -->
+
+            <div class="feedback-2">
+                <h3 class="heading">How satisfied are you with<span class="asterisk">*</span></h3>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Very Unsatisfied</td>
+                        <td></td>
+                        <td>Unsatisfied</td>
+                        <td></td>
+                        <td>Neutral</td>
+                        <td></td>
+                        <td>Satisfied</td>
+                        <td></td>
+                        <td>Very Satisfied</td>
+                    </tr>
+                    <tr>
+                        <td>Purchase</td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                    </tr>
+                    <tr>
+                        <td>Service</td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                    </tr>
+                    <tr>
+                        <td>Company Overall</td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                    </tr>
+                </table>
+
+                <!-- Table-2 -->
+
+                <h3 class="heading">How likely are you to<span class="asterisk">*</span></h3>
+                <table>
+                    <tr>
+                        <td></td>
+                        <td>Very Unlikely</td>
+                        <td></td>
+                        <td>Unlikley</td>
+                        <td></td>
+                        <td>Neutral</td>
+                        <td></td>
+                        <td>Likely</td>
+                        <td></td>
+                        <td>Very Likely</td>
+                    </tr>
+                    <tr>
+                        <td>Buy from us</td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                    </tr>
+                    <tr>
+                        <td>Recommend our products to others</td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                    </tr>
+                    <tr>
+                        <td>Recommend our company to others</td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                        <td></td>
+                        <th><input type="radio"></th>
+                   </tr>
+                </table>
+            </div>
+
+            <!-- Comments -->
+
+            <div class="comments">
+                <h3 class="heading">Additional comments or suggestions</h3>
+                <textarea id="comments" name="comments" rows="5"></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
